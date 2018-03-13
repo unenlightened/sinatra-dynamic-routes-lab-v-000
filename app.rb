@@ -12,9 +12,9 @@ class App < Sinatra::Base
 
   get '/say/:number/:phrase' do
 
-      "<p>#{params[:phrase]}</p>"
-      "<p>#{params[:phrase]}</p>"
-      "<p>#{params[:phrase]}</p>"
+      "/n#{params[:phrase]}"
+      "/n#{params[:phrase]}"
+      "/n#{params[:phrase]}"
 
   end
 
