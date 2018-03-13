@@ -37,6 +37,6 @@ class App < Sinatra::Base
       @answer_f = @num1 / @num2.to_f
     end
 
-    @answer_i == @answer_f
+    @answer_i == @answer_f ? "#{answer_i}" : "#{answer_f}"
   end
 end
